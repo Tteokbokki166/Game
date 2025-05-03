@@ -71,5 +71,5 @@ async def setup_buttons(channel):
     await channel.send(embed=embed, view=view)
 
 
-bot.run("ODg4NDM2NjA2OTI5ODYyNjc2.GbPY16.X-Hr81x3mWd3z38haNBbwtWo9XXL7tJ8Q6iIF8")
+bot.run("ODg4NDM2NjA2OTI5ODYyNjc2.GXbTca.QVC7UxuIFcJCeV3vDerbxosHOIstMC1B0AX7dk")
 
