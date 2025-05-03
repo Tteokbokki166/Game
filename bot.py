@@ -65,7 +65,7 @@ async def setup_buttons(channel):
 
     # หากไม่มีข้อความเดิม ให้สร้างข้อความใหม่
     embed = discord.Embed(title="รับยศ", description="กดปุ่มด้านล่างเพื่อรับยศ")
-    embed.set_image(url="https://media.discordapp.net/attachments/1316441140270075956/1316806567835996211/kotaro-lives-alone-kotaro-lives-alone-anime.gif")
+    embed.set_image(url="https://media.discordapp.net/attachments/1367522884964192376/1368212396996431972/1111.jpg")
 
     view = VerifyButton()
     await channel.send(embed=embed, view=view)
