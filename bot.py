@@ -49,9 +49,9 @@ class VerifyButton(discord.ui.View):
 async def on_ready():
     print(f"Logged in as {bot.user}")
     for guild in bot.guilds:
-        channel = discord.utils.get(guild.text_channels, name="แนะนำตัว")
+        channel = discord.utils.get(guild.text_channels, name="🌃｜แนะนำตัว")
         if not channel:
-            print(f"ไม่พบช่อง 'แนะนำตัว' ในเซิร์ฟเวอร์ {guild.name}")
+            print(f"ไม่พบช่อง '🌃｜แนะนำตัว' ในเซิร์ฟเวอร์ {guild.name}")
             continue
         await setup_buttons(channel)
 
